@@ -108,7 +108,7 @@ a {
 }
 
 .illustration {
-    border: 3px solid rgb(0, 208, 255);
+    border: 3px solid rgb(0, 17, 255);
     height: 100px;
     width: 100px;
     border-radius: 16px;
@@ -160,11 +160,24 @@ a {
 
 .call-to-action {
     background-color: #3882F6;
-    border-radius: 16px;
+    border-radius: 12px;
     width: 800px;
-    padding: 10px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.call-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .call-to-action h1 {
@@ -188,8 +201,6 @@ footer {
     border-color: white;
     border-style: solid;
     align-self: flex-end;
-    justify-content: center;
-    align-items: center;
 }
 
 .b2:hover{
