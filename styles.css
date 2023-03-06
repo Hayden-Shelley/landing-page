@@ -59,7 +59,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .b1 {
@@ -107,6 +107,7 @@ a {
     height: 100px;
     width: 100px;
     border-radius: 16px;
+    margin-bottom: 15px;
 }
 
 .items {
@@ -118,6 +119,7 @@ a {
 
 .info {
     max-width: 100px;
+    margin-bottom: 10px;
 }
 
 .body-three {
@@ -133,8 +135,13 @@ a {
 
 .quote {
     font-size: 36px;
-    font-style: italic;
+    font-style: italic; 
     color: #1F2937;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 .body-four {
@@ -149,8 +156,14 @@ a {
 .call-to-action {
     background-color: #3882F6;
     border-radius: 16px;
-    padding: 20px;
     width: 800px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action h1 {
+    margin: 0;
 }
 
 footer {
@@ -169,6 +182,9 @@ footer {
     padding: 5px 20px;
     border-color: white;
     border-style: solid;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .b2:hover{
