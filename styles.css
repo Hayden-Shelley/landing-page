@@ -52,6 +52,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 0 20px;
 }
 
 .one-left {
@@ -93,6 +94,10 @@ a {
 .body-two {
     text-align: center;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .items-title {
@@ -119,7 +124,6 @@ a {
 
 .info {
     max-width: 100px;
-    margin-bottom: 10px;
 }
 
 .body-three {
@@ -130,13 +134,14 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 600px;
+    padding: 0 100px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic; 
     color: #1F2937;
+    padding-bottom: 10px;
 }
 
 .quote-name {
